@@ -1,0 +1,152 @@
+
+/*Generales*/
+
+body {
+    background-image: url('marinae.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+#goaway {
+    display: none;
+}
+#formulario{
+    display: none;
+}
+.container {
+    margin: 10px 10px 70px ;
+    width: 90%;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center {
+    text-align: center;
+}
+
+/*Barra*/
+
+.barra {
+    display: block;
+    background-color:rgba(200, 146, 155, 0.75);
+    margin: 20px 0px;
+    padding: 0 25px;
+}
+
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo a{
+    font-size: 51px;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+
+.enlaces a {
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .enlaces {
+        display: flex;
+        align-self: center;
+        
+    }
+}
+
+/*Contenido*/
+
+.columna {
+    background: lightgrey;
+    color: rgb(200,146,155);
+    border: 1px solid rgb(16,26,83);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+    width: 23%;
+    box-sizing: border-box;
+}
+.columna2 {
+    width: 20rem;
+    margin: 5% auto;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.precio {
+    font-size: 500 px;
+}
+.btn{
+    border-style: none;
+    padding: 10px;
+    margin: 6px;
+    background-color:rgb(200,146,155);
+    color: white;
+    border-radius: 5px; 
+
+}
+.btn:hover{
+    background-color:rgb(136, 99, 106) ;
+    color: white;
+}
+
+#btnfiltro {
+    border-style: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 6px;
+    background-color:rgb(115, 173, 38);
+    color: white;
+    border-radius: 5px;   
+}
+.btn3 {
+    display: block;
+    border-style: none;
+    margin: 6px;
+    padding: 5px;
+    background-color:rgb(0, 88, 139);
+    color: white;
+    border-radius: 5px;   
+}
+.imagen1 {
+    width: 200px;
+    height: auto;
+}
+
+/*Footer*/
+
+footer .barra {
+    margin:0;
+    padding: 0 25px;
+    background-color: rgba(255, 255, 255, 0.788);
+    border-top: grey 0.5px solid;
+}
+
+footer a {
+    color: black;
+}

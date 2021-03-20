@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="newindex.css">
+    <title>Oxygen</title>
+</head>
+<body>
+  <header>
+  <!-- barra de navegadora -->
+  <nav class="barra">
+    <div class="logo">
+      <a href="index.html">oxygen</a>
+    </div>
+    <div class="enlaces">
+      <a href="#">Inicio</a>
+      <a href="#">Quienes Somos</a>
+      <a href="#">Contacto</a>
+    </div>
+  </nav>
+  </header>
+  <main>
+      <!-- Carrousel-------->
+      <div id="carouselExampleControls" class="carousel slide text-center h-25" style="margin: 0 auto; padding: 10px; width: 100%; height: 80%; "  data-bs-ride="carousel">
+        <div class="carousel-inner" >
+          <div class="carousel-item active text-center">
+            <img src="marinaee.jpg" class="d-block w-100 h-auto img-fluid " style="width: 100px; height: auto;" alt="oxygenkinesio">
+          </div>
+          <div class="carousel-item text-center">
+            <img src="marinaee.jpg" class="d-block w-100 img-fluid" alt="oxygenkinesio">
+          </div>
+          <div class="carousel-item text-center">
+            <img src="marinaee.jpg" class="d-block w-100 h-auto img-fluid" alt="oxygenkinesio">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visible" >Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visible" >Next</span>
+        </button>
+      </div>
+    <!-- filtro -->
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+          Filtrar
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li><button class="dropdown-item" type="button" id='btn31' >Rehabilitación</button></li>
+          <li><button class="dropdown-item" type="button" id='btn32'>Piel</button></li>
+          <li><button class="dropdown-item" type="button" id='btn33'>Masajes</button></li>
+        </ul>
+      </div>
+        <!-- área para mostras los filtros y formulario  -->
+    <div id ='shower'>
+
+    </div>
+    <div>
+      <form id='formulario1' style="display: none;">
+          Nombre: <input type="text" name='nombre'><br>
+          Apellido: <input type="text" name='apellido'><br>
+          DNI: <input type="number" name='dni'><br>
+          Télefono: <input type="number" name='telefono'><br>
+          Correo: <input type="email" name='email'><br><br>
+          <input type="submit" value="Enviar">
+      </form>
+  </div>
+      <!------------ Cards con los servicios -------------->
+      <section class="text-center flex container rehabs">
+        <div class="card columna2" >
+          <img src="marinaee.jpg" class=" w-100 h-auto img-fluid card-img-top imagen1" alt="oxygenkinesio">
+          <div class="card-body">
+            <h5 class="card-title">Rehabilitación funcional</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr>
+            <button id='btnp1' class="btn">Solicitar Turno</button>
+          </div>
+        </div>
+        <div class="card columna2" >
+          <img src="marinaee.jpg" class=" w-100 h-auto img-fluid card-img-top imagen1" alt="oxygenkinesio">
+          <div class="card-body">
+            <h5 class="card-title">Rehabilitación en piso pelvíco</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr>
+            <button id='btnp2' class="btn">Solicitar Turno</button>
+          </div>
+        </div>
+      </section>
+      <section class="text-center flex container massage">
+        <div class="card columna2" >
+          <img src="marinaee.jpg" class=" w-100 h-auto img-fluid card-img-top imagen1" alt="oxygenkinesio">
+          <div class="card-body">
+            <h5 class="card-title">Drenaje linfático</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr>
+            <button id='btnp3' class="btn">Solicitar Turno</button>
+          </div>
+        </div>
+        <div class="card columna2" >
+          <img src="marinaee.jpg" class=" w-100 h-auto img-fluid card-img-top imagen1" alt="oxygenkinesio">
+          <div class="card-body">
+            <h5 class="card-title">Criolipolisis</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr>
+            <button id='btnp4' class="btn">Solicitar Turno</button>
+          </div>
+        </div>
+      </section>
+      <section class="text-center flex container skins">
+        <div class="card columna2" >
+          <img src="marinaee.jpg" class=" w-100 h-auto img-fluid card-img-top imagen1" alt="oxygenkinesio">
+          <div class="card-body">
+            <h5 class="card-title">Depilación definitiva</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr>
+            <button id='btnp5' class="btn">Solicitar Turno</button>
+          </div>
+        </div>
+        <div class="card columna2" >
+          <img src="marinaee.jpg" class=" w-100 h-auto img-fluid card-img-top imagen1" alt="oxygenkinesio">
+          <div class="card-body">
+            <h5 class="card-title">Dermatofuncional</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr>
+            <button id='btnp6' class="btn">Solicitar Turno</button>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav class="barra">
+          <div class="logo">
+            <a href="index.html">oxygen</a>
+          </div>
+          <div class="enlaces">
+            <a href="#">Inicio</a>
+            <a href="#">Quienes Somos</a>
+            <a href="#">Contacto</a>
+          </div>
+        </nav>
+      </footer>
+  </main>
+   <!------------------ JAVASCRIPT --------------------->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- <script src= "Users\juliosanchez\Downloads\bootstrap-5.0.0-beta2-dist\js\bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="data.js"></script>
+  <script src="funciones.js"></script>
+  <script src="main3.js"></script>
+</body>
+</html>
